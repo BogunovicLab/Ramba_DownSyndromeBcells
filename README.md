@@ -10,7 +10,7 @@ Spatial Transcriptomics:
 | SCRIPT | NOTEBOOK LINK | DESCRIPTION  |
 |------------------|---------------------------|---------------------------|
 | YML      | [link](https://github.com/BogunovicLab/Ramba_DownSyndromeBcells/blob/main/spatial_transcriptomics/spatial_environment.yml)               | YML file to recreate conda environment for spatial analysis |
-| Gene expression analysis - Part 1 | [link](https://github.com/BogunovicLab/Ramba_DownSyndromeBcells/blob/main/spatial_transcriptomics/spatial_GEX_analysis/Processing_1.R)| Processing of spatial h5 files |
+| Gene expression analysis - Part 1 | [link](https://github.com/BogunovicLab/Ramba_DownSyndromeBcells/blob/main/spatial_transcriptomics/spatial_GEX_analysis/Processing_1.R)| Processing, normalization, and harmony integration of spatial h5 files |
 | Gene expression analysis - Part 2 | [link](https://github.com/BogunovicLab/Ramba_DownSyndromeBcells/blob/main/spatial_transcriptomics/spatial_GEX_analysis/GEX_analysis_2.R)| Analysis of processed files: Figure 2, Figure 3A-E, Supplemental Figure 2, 3 |
 | Pseudobulking analysis - Part 1 | [link](https://github.com/BogunovicLab/Ramba_DownSyndromeBcells/blob/main/spatial_transcriptomics/pseudobulking/Metadata.R)| Generate metadata file for pseudobulk analysis |
 | Pseudobulking analysis - Part 2 | [link](https://github.com/BogunovicLab/Ramba_DownSyndromeBcells/blob/main/spatial_transcriptomics/pseudobulking/Pseudobulking_input.R)| Generate input files for pseudobulk analysis |
@@ -21,8 +21,8 @@ Single Cell RNA-sequencing/BCR-sequencing:
 |------------------|---------------------------|---------------------------|
 | YML      | [link](https://github.com/BogunovicLab/Ramba_DownSyndromeBcells/blob/main/scRNAseq%2BBCRseq/complete_env.yml) | YML file to recreate conda environment for scRNAseq+BCRseq analysis (NOTE: need to install additional packages, see README file within folder) |
 | Sample Data | [link](https://github.com/BogunovicLab/Ramba_DownSyndromeBcells/blob/main/scRNAseq%2BBCRseq/sample_data.csv)| Necessary CSV file for running analysis |
-| Gene expression analysis - Part 1| [link](https://github.com/BogunovicLab/Ramba_DownSyndromeBcells/blob/main/scRNAseq%2BBCRseq/gex_analysis/B_GEX_analysis.R) | Processing of matrix files & integration |
-| Gene expression analysis - Part 2 | [link](https://github.com/BogunovicLab/Ramba_DownSyndromeBcells/blob/main/scRNAseq%2BBCRseq/gex_analysis/B_GEX_analysis_2.R) | Analysis |
+| Gene expression analysis - Part 1| [link](https://github.com/BogunovicLab/Ramba_DownSyndromeBcells/blob/main/scRNAseq%2BBCRseq/gex_analysis/B_GEX_analysis.R) | Processing, normalization, and harmony integration of matrix files |
+| Gene expression analysis - Part 2 | [link](https://github.com/BogunovicLab/Ramba_DownSyndromeBcells/blob/main/scRNAseq%2BBCRseq/gex_analysis/B_GEX_analysis_2.R) | UMAP and initial gene expression analysis |
 | Gene expression analysis - Part 3 | [link](https://github.com/BogunovicLab/Ramba_DownSyndromeBcells/blob/main/scRNAseq%2BBCRseq/gex_analysis/B_GEX_analysis_3.R) | Analysis of processed files: Figure 4B-D, Supplemental Figure 4 |
 | Gene expression analysis - Part 4 | [link](https://github.com/BogunovicLab/Ramba_DownSyndromeBcells/blob/main/scRNAseq%2BBCRseq/gex_analysis/ucell_analysis.R) | UCell analysis of processed files: Figure 4F-G, Supplemental Figure 4|
 | BCR analysis - Part 1 | [link](https://github.com/BogunovicLab/Ramba_DownSyndromeBcells/blob/main/scRNAseq%2BBCRseq/bcr_analysis/igblast.sh) | IgBlast analysis |
